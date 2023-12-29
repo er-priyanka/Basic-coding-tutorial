@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input id="inputTag" type="text">
+    <button class="clickMe">Click here</button>
+</body>
+</html>
+<script>
+    let input = document.querySelector('#inputTag');
+    let btn = document.querySelector('.clickMe');
+    
+    btn.addEventListener('click', () =>{
+        alert(input.value)
+    })
+
+    // window.addEventListener("keydown", (e)=>{
+    //     console.log("keydown")
+    // })
+
+    
+    
+</script>
+<script src="./script.js"></script>
